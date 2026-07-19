@@ -4,7 +4,7 @@ This repository hosts the public legal and support pages for Grubs Up.
 
 Current contact email:
 
-- `grubsup.support@gmail.com`
+- `grubsup.test@gmail.com`
 
 Recommended GitHub Pages URLs:
 
