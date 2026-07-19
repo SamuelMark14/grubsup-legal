@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Grubs Up Legal</title>
+    <style>
+      :root {
+        color-scheme: light;
+        --bg: #f6f0e4;
+        --panel: #fffdf8;
+        --text: #1f2a1f;
+        --muted: #5f6f5f;
+        --border: #d8cfbd;
+        --accent: #6f8756;
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        margin: 0;
+        font-family: Arial, Helvetica, sans-serif;
+        background: var(--bg);
+        color: var(--text);
+        line-height: 1.65;
+      }
+
+      main {
+        max-width: 860px;
+        margin: 0 auto;
+        padding: 48px 20px 72px;
+      }
+
+      .panel {
+        background: var(--panel);
+        border: 1px solid var(--border);
+        border-radius: 28px;
+        padding: 32px 28px;
+        box-shadow: 0 14px 30px rgba(31, 42, 31, 0.07);
+      }
+
+      h1,
+      h2 {
+        font-family: Georgia, "Times New Roman", serif;
+        line-height: 1.15;
+        margin: 0 0 16px;
+      }
+
+      h1 {
+        font-size: clamp(2rem, 5vw, 3rem);
+      }
+
+      p {
+        margin: 0 0 14px;
+      }
+
+      .eyebrow {
+        display: inline-block;
+        margin-bottom: 14px;
+        color: var(--accent);
+        font-size: 0.8rem;
+        font-weight: 700;
+        letter-spacing: 0.08em;
+        text-transform: uppercase;
+      }
+
+      .meta {
+        color: var(--muted);
+      }
+
+      .links {
+        display: grid;
+        gap: 12px;
+        margin-top: 24px;
+      }
+
+      a.card {
+        display: block;
+        padding: 18px 20px;
+        border: 1px solid var(--border);
+        border-radius: 18px;
+        background: rgba(111, 135, 86, 0.08);
+        color: var(--text);
+        text-decoration: none;
+      }
+
+      a.card strong {
+        display: block;
+        margin-bottom: 6px;
+        color: var(--accent);
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <section class="panel">
+        <div class="eyebrow">Grubs Up</div>
+        <h1>Legal and support pages</h1>
+        <p class="meta">Last updated: July 19, 2026</p>
+        <p>
+          This page hosts the public legal information for the Grubs Up app, including privacy and account deletion
+          information.
+        </p>
+
+        <div class="links">
+          <a class="card" href="./privacy-policy.html">
+            <strong>Privacy Policy</strong>
+            View how Grubs Up collects, uses, and stores user data.
+          </a>
+          <a class="card" href="./delete-account.html">
+            <strong>Delete Account</strong>
+            Read how to request deletion of your Grubs Up account and associated data.
+          </a>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
